@@ -36,3 +36,148 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-teal {
+  background-color: #468B97;
+}
+
+.bg-teal2 {
+  background-color: #3AA6B9;
+}
+
+.bg-red {
+  background-color: #FF0060;
+}
+
+.maincont {
+  margin-top: 5%;
+  border: solid 1px;
+  border-color: #3AA6B9;
+  border-radius: 2%;
+  padding: 2% 3% 2% 3%;
+  box-shadow: 5px 8px 15px #888888;
+}
+
+.sbtn:hover {
+  background-color: #024b58;
+  border-color: #04515f;
+  color: white;
+}
+
+.sbtn {
+  background-color: #3AA6B9;
+  border-color: #3AA6B9;
+}
+
+#tname:focus,
+#tmail:focus,
+#tpassw:focus,
+#tcpassw:focus {
+  box-shadow: 3px 3px 3px #088395;
+}
+
+.sidebarul {
+  list-style: none;
+}
+
+/* body{
+  background-color: #282c34 !important;
+  color: white;
+} */
+.hfont {
+  font-family: 'Oswald', sans-serif;
+}
+
+#inp {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-left: 2%;
+}
+
+#inp:focus {
+  border: none;
+  outline: none;
+
+}
+
+#inp:focus #inp1 {
+  box-shadow: 3px 3px 3px #088395;
+}
+
+#inp1 {
+  border: solid 1px;
+  border-radius: 20px;
+  height: 37px;
+}
+
+#search-sym {
+  border-left: solid 1px;
+  height: 37px;
+}
+
+#speaker {
+  background-color: #e3e3e3;
+  padding: auto;
+}
+.hdiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hdiv:hover {
+  background-color: #d7e6f1;
+  border-radius: 10px;
+}
+
+.back-grey {
+  /* background-color: #DDE6ED; */
+  background-color: #e3e3e3;
+  border-radius: 100%;
+  padding-left: 16%;
+  width: 50%;
+  height: 60%;
+}
+
+.divsty {
+  margin: auto;
+  width: 100%;
+  height: 60%;
+  background-color: #f2f2f2;
+  /* D8D8D8*/
+  border-radius: 5%;
+  text-align: center;
+}
+
+.parag {
+  margin-top: 5%;
+}
+
+.subscriptions {
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.border-round {
+  border-radius: 100%;
+}
+
+.scrollbar {
+  overflow-x: scroll;
+}
+.vd{
+  border-radius: 15px;
+}
+/* .fxd{
+  position: fixed;
+} */
+.numdiv{
+  background-color: #FF0060;
+  border-radius: 100%;
+  width:23px;
+  height: 23px;
+  margin-bottom: 4%;
+  float: right;
+  text-align: center;
+  color: white;
+  padding-top: 0;
+}
